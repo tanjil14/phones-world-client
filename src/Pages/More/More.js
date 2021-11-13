@@ -16,7 +16,7 @@ const More = () => {
     fetch(`https://morning-refuge-62244.herokuapp.com/services/${id}`)
       .then(res => res.json())
       .then(data => setService(data))
-  }, [])
+  }, [id])
   console.log(service);
   return (
     <div>
