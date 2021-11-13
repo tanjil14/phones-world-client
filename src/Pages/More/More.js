@@ -13,7 +13,7 @@ const More = () => {
   // const {booking} = useAuth();
   const [service, setService] = useState({})
   useEffect(() => {
-    fetch(`https://hidden-coast-67939.herokuapp.com/services/${id}`)
+    fetch(`https://morning-refuge-62244.herokuapp.com/services/${id}`)
       .then(res => res.json())
       .then(data => setService(data))
   }, [])

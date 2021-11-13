@@ -7,7 +7,7 @@ const UseCart = () => {
     console.log(user);
     const [selectedBooking, setSelectedBooking] = useState([]);
     useEffect(() => {
-        fetch(`https://hidden-coast-67939.herokuapp.com/cart/${uid}`)
+        fetch(`https://morning-refuge-62244.herokuapp.com/cart/${uid}`)
             .then(res => res.json())
             .then(data => {
                 if (data.length) {
@@ -25,7 +25,7 @@ const UseCart = () => {
         if (isHave) {
             alert("Already Booked!! Thanks For Booking......")
         } else {
-            fetch('https://hidden-coast-67939.herokuapp.com/booking/add', {
+            fetch('https://morning-refuge-62244.herokuapp.com/booking/add', {
                 method: "POST",
                 headers: { "content-type": "application/json" },
                 body: JSON.stringify(dt)
@@ -44,7 +44,7 @@ const UseCart = () => {
         const isConfirm = window.confirm('Are You Sure? Wanna delete?');
         console.log(isConfirm);
         if (isConfirm) {
-            const url = `https://hidden-coast-67939.herokuapp.com/booking/add/${id}`;
+            const url = `https://morning-refuge-62244.herokuapp.com/booking/add/${id}`;
             console.log(url);
             fetch(url, {
                 method: 'DELETE'

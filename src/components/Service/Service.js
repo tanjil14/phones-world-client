@@ -8,7 +8,7 @@ const Service = (props) => {
     return (
         <div key={service.id}>
             <div className="col">
-                <div className="card">
+                <div className="card h-100">
                     <Link className='more-img' to={`/more/${service._id}`}>
                         <img className="card-img-top" src={service.img} alt="" />
                     </Link>
