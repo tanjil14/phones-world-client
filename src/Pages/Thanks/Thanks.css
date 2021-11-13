@@ -1,0 +1,19 @@
+.thanks button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 0px solid rgb(1, 33, 59);
+    background: rgb(13, 10, 48) ;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.thanks button:hover{
+    color: rgb(13, 10, 48);
+    background-color: white;
+    border: 1px solid gray;
+
+}

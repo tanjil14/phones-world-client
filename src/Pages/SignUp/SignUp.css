@@ -1,0 +1,11 @@
+.loginbtn{
+    border: 1px solid rgba(7, 6, 63, 0.274);
+    padding: 15px 20px;
+    background-color: rgba(7, 6, 63, 0.274);
+    border-radius: 25px;
+}
+.loginbtn:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}

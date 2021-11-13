@@ -1,0 +1,44 @@
+.text-mute{
+    padding: 15px 10px 10px;
+    text-align: center;
+    margin: 110px 10px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: rgb(7, 5, 36) ;
+    color: #fff;
+}
+.text-mute1{
+    padding: 15px 10px 10px;
+    text-align: center;
+    margin: 110px 10px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: rgb(10, 6, 44);
+    color: #fff ;
+}
+.text-mute2{
+    padding: 15px 10px 10px;
+    text-align: center;
+    margin: 110px 10px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: rgb(10, 6, 44);
+    color: #fff;
+}
+.text-mute3{
+    padding: 15px 10px 10px;
+    text-align: center;
+    margin: 110px 10px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: rgb(7, 5, 36);
+    color: #fff;
+}
+@media only screen and (max-width:600px){
+    .text-mute1{
+        display: none;
+    }
+    .text-mute2{
+        display: none;
+    }
+}
